@@ -8,12 +8,14 @@ const toolbar = (props) => {
     return (
         <header class={classes.Toolbar}>
             <div>MENU</div>
-            <Logo/>
+            <div className={classes.Logo}>
+                <Logo />
+            </div>
             <nav>
-                <NavigationItems/>
+                <NavigationItems />
             </nav>
         </header>
-            )
+    )
 };
 
 export default toolbar;
